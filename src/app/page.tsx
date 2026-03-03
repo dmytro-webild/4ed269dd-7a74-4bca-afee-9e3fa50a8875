@@ -66,7 +66,7 @@ export default function LandingPage() {
             }
           ]}
           buttons={[
-            { text: "Get Free Consultation", href: "contact" },
+            { text: "Repair My Credit Now", href: "contact" },
             { text: "Learn More", href: "services" }
           ]}
           buttonAnimation="slide-up"
@@ -247,7 +247,7 @@ export default function LandingPage() {
           imageAlt="Financial success"
           mediaAnimation="slide-up"
           mediaPosition="right"
-          inputPlaceholder="your@email.com"
+          inputPlaceholder="Enter your email"
           buttonText="Get Free Consultation"
           termsText="We respect your privacy. Your consultation request will be handled securely."
         />
