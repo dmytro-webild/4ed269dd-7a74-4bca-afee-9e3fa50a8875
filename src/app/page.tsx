@@ -10,6 +10,7 @@ import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCa
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import { Award, BarChart3, CheckCircle, ClipboardList, DollarSign, Sparkles, Star, Target, TrendingUp, Users, Zap, Shield } from 'lucide-react';
+import Image from 'next/image';
 
 export default function LandingPage() {
   return (
@@ -249,7 +250,7 @@ export default function LandingPage() {
           mediaPosition="right"
           inputPlaceholder="Enter your email"
           buttonText="Claim Your Free Credit Analysis"
-          termsText="We respect your privacy. Your consultation request will be handled securely."
+          termsText="We respect your privacy. Your consultation request will be handled securely. Zero obligation—just expert guidance to help you succeed."
         />
       </div>
 
