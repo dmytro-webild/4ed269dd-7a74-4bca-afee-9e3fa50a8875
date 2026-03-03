@@ -37,7 +37,6 @@ export default function LandingPage() {
           ]}
           button={{ text: "Start Now", href: "contact" }}
           brandName="Rize Financial"
-          brandLogo="/logo.png"
         />
       </div>
 
@@ -257,8 +256,6 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterLogoReveal
-          logoSrc="/logo.png"
-          logoAlt="Rize Financial Logo"
           leftLink={{ text: "Privacy Policy", href: "#" }}
           rightLink={{ text: "Terms of Service", href: "#" }}
         />
