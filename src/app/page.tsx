@@ -240,7 +240,7 @@ export default function LandingPage() {
           tagIcon={Sparkles}
           tagAnimation="slide-up"
           title="Ready for Your Financial Transformation?"
-          description="Start your journey to better credit and new opportunities today. Our team is ready to help you succeed."
+          description="Start your journey to better credit and new opportunities today—with zero obligation. Our team is ready to help you succeed."
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
           imageSrc="http://img.b2bpic.net/free-photo/three-cheerful-businesspeople-giving-five-smiling-confident-happy-colleagues-celebrating-successful-deal-together-standing-outdoors-rising-hand-up-teamwork-partnership-concept_74855-7845.jpg"
@@ -248,7 +248,7 @@ export default function LandingPage() {
           mediaAnimation="slide-up"
           mediaPosition="right"
           inputPlaceholder="Enter your email"
-          buttonText="Get Free Consultation"
+          buttonText="Claim Your Free Credit Analysis"
           termsText="We respect your privacy. Your consultation request will be handled securely."
         />
       </div>
