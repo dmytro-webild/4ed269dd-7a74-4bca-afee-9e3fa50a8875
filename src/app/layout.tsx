@@ -16,11 +16,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Credit Repair & Financial Solutions | RIZE Financial",  description: "Restore your credit and unlock funding opportunities with RIZE Financial. Expert credit repair, strategic funding, and financial consulting for real results.",  keywords: "credit repair, credit restoration, credit score improvement, funding solutions, financial consulting, credit building",  metadataBase: new URL("https://rizefinancial.com"),
   alternates: {
-    canonical: "https://rizefinancial.com"},
+    canonical: "https://rizefinancial.com"
+  },
   openGraph: {
-    title: "Credit Repair & Financial Solutions | RIZE Financial",    description: "Restore your credit and unlock funding opportunities. Real people. Real results.",    url: "https://rizefinancial.com",    siteName: "RIZE Financial",    type: "website"},
+    title: "Credit Repair & Financial Solutions | RIZE Financial",    description: "Restore your credit and unlock funding opportunities. Real people. Real results.",    url: "https://rizefinancial.com",    siteName: "RIZE Financial",    type: "website"
+  },
   twitter: {
-    card: "summary_large_image",    title: "RIZE Financial - Credit Repair Solutions",    description: "Restore your credit and unlock new opportunities"},
+    card: "summary_large_image",    title: "RIZE Financial - Credit Repair Solutions",    description: "Restore your credit and unlock new opportunities"
+  },
   robots: {
     index: true,
     follow: true,
