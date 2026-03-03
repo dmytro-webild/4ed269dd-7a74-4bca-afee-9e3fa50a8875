@@ -35,7 +35,7 @@ export default function LandingPage() {
             { name: "Contact", id: "contact" }
           ]}
           button={{ text: "Start Now", href: "contact" }}
-          brandName="RIZE"
+          brandName="Rize Financial"
         />
       </div>
 
@@ -76,7 +76,7 @@ export default function LandingPage() {
 
       <div id="about" data-section="about">
         <TextAbout
-          tag="About RIZE"
+          tag="About Rize Financial"
           tagIcon={Shield}
           tagAnimation="slide-up"
           title="Real People. Real Results. Real Financial Freedom."
@@ -205,7 +205,7 @@ export default function LandingPage() {
       <div id="testimonials" data-section="testimonials">
         <TestimonialCardFive
           title="What Our Clients Say"
-          description="Real stories from real people who transformed their financial futures with RIZE"
+          description="Real stories from real people who transformed their financial futures with Rize Financial"
           tag="Testimonials"
           tagIcon={Star}
           tagAnimation="slide-up"
@@ -255,7 +255,7 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterLogoReveal
-          logoText="RIZE FINANCIAL"
+          logoText="Rize Financial"
           leftLink={{ text: "Privacy Policy", href: "#" }}
           rightLink={{ text: "Terms of Service", href: "#" }}
         />
