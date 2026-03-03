@@ -256,8 +256,9 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterLogoReveal
+          logoText="Rize Financial"
           leftLink={{ text: "Privacy Policy", href: "#" }}
-          rightLink={{ text: "Terms of Service", href: "#" }}
+          rightLink={{ text: "© 2024 Rize Financial. All rights reserved.", href: "#" }}
         />
       </div>
     </ThemeProvider>
