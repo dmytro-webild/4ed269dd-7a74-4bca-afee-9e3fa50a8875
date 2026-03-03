@@ -247,7 +247,7 @@ export default function LandingPage() {
           imageAlt="Financial success"
           mediaAnimation="slide-up"
           mediaPosition="right"
-          inputPlaceholder="Enter your email"
+          inputPlaceholder="your@email.com"
           buttonText="Get Free Consultation"
           termsText="We respect your privacy. Your consultation request will be handled securely."
         />
