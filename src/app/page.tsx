@@ -68,7 +68,7 @@ export default function LandingPage() {
           tag="About Rize Financial"
           tagIcon={Shield}
           tagAnimation="slide-up"
-          title="Real People. Real Results. Real Financial Freedom."
+          title="Real People, Real Results, Real Financial Freedom."
           useInvertedBackground={true}
           buttons={[
             { text: "See Our Difference", href: "results" }
