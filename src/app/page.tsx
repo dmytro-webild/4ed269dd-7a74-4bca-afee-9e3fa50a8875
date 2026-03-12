@@ -122,7 +122,7 @@ export default function LandingPage() {
 
       <div id="results" data-section="results">
         <MetricCardOne
-          title="Proven Results That Speak"
+          title="1 million plus"
           description="Our track record of success demonstrates real impact on real lives"
           tag="Results"
           tagIcon={Award}
