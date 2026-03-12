@@ -52,20 +52,7 @@ export default function LandingPage() {
           imageAlt="Professional financial services"
           imagePosition="right"
           mediaAnimation="slide-up"
-          testimonials={[
-            {
-              name: "Marcus Johnson",              handle: "Client, Chicago IL",              testimonial: "RIZE helped me increase my credit score by 127 points in just 6 months. I finally got approved for a mortgage!",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg"
-            },
-            {
-              name: "Sarah Martinez",              handle: "Client, Austin TX",              testimonial: "Professional, transparent, and results-driven. They walked me through every step and I couldn't be happier.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-positive-businesswoman_1098-3531.jpg"
-            },
-            {
-              name: "David Chen",              handle: "Client, Seattle WA",              testimonial: "Best investment I made for my financial future. Now I have better lending options and lower interest rates.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/profile-portrait-young-asian-businessman_1262-1572.jpg"
-            }
-          ]}
+          testimonials={[]}
           buttons={[
             { text: "Repair My Credit Now", href: "contact" },
             { text: "Learn More", href: "services" }
