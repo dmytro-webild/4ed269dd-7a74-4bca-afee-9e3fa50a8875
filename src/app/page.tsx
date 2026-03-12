@@ -232,7 +232,7 @@ export default function LandingPage() {
           description="Start your journey to better credit and new opportunities today—with zero obligation. Our team is ready to help you succeed."
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/three-cheerful-businesspeople-giving-five-smiling-confident-happy-colleagues-celebrating-successful-deal-together-standing-outdoors-rising-hand-up-teamwork-partnership-concept_74855-7845.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQzoj29wXnmZL7I0lqwKhA2SM2/uploaded-1772541756005-i1d7tli4.jpg"
           imageAlt="Financial success"
           mediaAnimation="slide-up"
           mediaPosition="right"
@@ -244,7 +244,7 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterLogoReveal
-          logoText="Rize Financial"
+          logoText=""
           leftLink={{ text: "Privacy Policy", href: "#" }}
           rightLink={{ text: "© 2024 Rize Financial. All rights reserved.", href: "#" }}
         />
