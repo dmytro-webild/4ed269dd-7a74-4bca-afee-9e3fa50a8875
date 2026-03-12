@@ -72,6 +72,7 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           useInvertedBackground={false}
+          fixedMediaHeight={false}
         />
       </div>
 
