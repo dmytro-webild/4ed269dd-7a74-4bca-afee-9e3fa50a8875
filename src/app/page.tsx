@@ -241,6 +241,8 @@ export default function LandingPage() {
           inputPlaceholder="Enter your email"
           buttonText="Claim Your Free Credit Analysis"
           termsText="We respect your privacy. Your consultation request will be handled securely. Zero obligation—just expert guidance to help you succeed."
+          mediaWrapperClassName="w-full h-full object-cover object-center"
+          mediaClassName="w-full h-full object-cover object-center"
         />
       </div>
 
