@@ -48,7 +48,7 @@ export default function LandingPage() {
           tagIcon={Sparkles}
           tagAnimation="slide-up"
           background={{ variant: "glowing-orb" }}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQzoj29wXnmZL7I0lqwKhA2SM2/uploaded-1772541756005-i1d7tli4.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQzoj29wXnmZL7I0lqwKhA2SM2/uploaded-1772541756005-i1d7tli4.jpg?_wi=1"
           imageAlt="Professional financial services"
           imagePosition="right"
           mediaAnimation="slide-up"
@@ -234,7 +234,7 @@ export default function LandingPage() {
           description="Start your journey to better credit and new opportunities today—with zero obligation. Our team is ready to help you succeed."
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQzoj29wXnmZL7I0lqwKhA2SM2/uploaded-1772541756005-i1d7tli4.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQzoj29wXnmZL7I0lqwKhA2SM2/uploaded-1772541756005-i1d7tli4.jpg?_wi=2"
           imageAlt="Financial success"
           mediaAnimation="slide-up"
           mediaPosition="right"
