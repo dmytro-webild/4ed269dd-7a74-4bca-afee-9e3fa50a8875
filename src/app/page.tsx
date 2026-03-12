@@ -48,7 +48,7 @@ export default function LandingPage() {
           tagIcon={Sparkles}
           tagAnimation="slide-up"
           background={{ variant: "glowing-orb" }}
-          imageSrc="http://img.b2bpic.net/free-photo/landmarks-shanghai_1359-1099.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQzoj29wXnmZL7I0lqwKhA2SM2/uploaded-1772541756005-i1d7tli4.jpg"
           imageAlt="Professional financial services"
           imagePosition="right"
           mediaAnimation="slide-up"
