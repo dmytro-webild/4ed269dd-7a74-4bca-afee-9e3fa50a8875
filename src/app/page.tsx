@@ -119,33 +119,31 @@ export default function LandingPage() {
       </div>
 
       <div id="results" data-section="results">
-        <div style={{ overflow: "auto" }}>
-          <MetricCardOne
-            title="Proven Results That Speak"
-            description="Our track record of success demonstrates real impact on real lives"
-            tag="Results"
-            tagIcon={Award}
-            tagAnimation="slide-up"
-            textboxLayout="default"
-            useInvertedBackground={true}
-            animationType="scale-rotate"
-            gridVariant="uniform-all-items-equal"
-            metrics={[
-              {
-                id: "1",                value: "5000+",                title: "Clients Helped",                description: "Families and businesses restored to financial health",                icon: Users
-              },
-              {
-                id: "2",                value: "127",                title: "Avg. Score Increase",                description: "Average credit score improvement in 6 months",                icon: TrendingUp
-              },
-              {
-                id: "3",                value: "98%",                title: "Success Rate",                description: "Client satisfaction with our proven methodology",                icon: CheckCircle
-              },
-              {
-                id: "4",                value: "$50M+",                title: "Funding Secured",                description: "Total funding unlocked for our clients",                icon: DollarSign
-              }
-            ]}
-          />
-        </div>
+        <MetricCardOne
+          title="Proven Results That Speak"
+          description="Our track record of success demonstrates real impact on real lives"
+          tag="Results"
+          tagIcon={Award}
+          tagAnimation="slide-up"
+          textboxLayout="default"
+          useInvertedBackground={true}
+          animationType="scale-rotate"
+          gridVariant="uniform-all-items-equal"
+          metrics={[
+            {
+              id: "1",              value: "5000+",              title: "Clients Helped",              description: "Families and businesses restored to financial health",              icon: Users
+            },
+            {
+              id: "2",              value: "127",              title: "Avg. Score Increase",              description: "Average credit score improvement in 6 months",              icon: TrendingUp
+            },
+            {
+              id: "3",              value: "98%",              title: "Success Rate",              description: "Client satisfaction with our proven methodology",              icon: CheckCircle
+            },
+            {
+              id: "4",              value: "$50M+",              title: "Funding Secured",              description: "Total funding unlocked for our clients",              icon: DollarSign
+            }
+          ]}
+        />
       </div>
 
       <div id="howitworks" data-section="howitworks">
