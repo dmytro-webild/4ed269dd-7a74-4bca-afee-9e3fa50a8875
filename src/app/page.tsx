@@ -6,9 +6,10 @@ import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonia
 import TextAbout from '@/components/sections/about/TextAbout';
 import FeatureCardTwentyFive from '@/components/sections/feature/FeatureCardTwentyFive';
 import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
+import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
-import { Award, BarChart3, CheckCircle, ClipboardList, DollarSign, Sparkles, Target, TrendingUp, Users, Zap, Shield } from 'lucide-react';
+import { Award, BarChart3, CheckCircle, ClipboardList, DollarSign, Sparkles, Target, TrendingUp, Users, Zap, Shield, Star } from 'lucide-react';
 import Image from 'next/image';
 
 export default function LandingPage() {
@@ -46,11 +47,25 @@ export default function LandingPage() {
           tagIcon={Sparkles}
           tagAnimation="slide-up"
           background={{ variant: "glowing-orb" }}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQzoj29wXnmZL7I0lqwKhA2SM2/uploaded-1772541756005-i1d7tli4.jpg?_wi=1"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQzoj29wXnmZL7I0lqwKhA2SM2/uploaded-1772541756005-i1d7tli4.jpg"
           imageAlt="Professional financial services"
           imagePosition="right"
           mediaAnimation="slide-up"
-          testimonials={[]}
+          testimonials={[
+            {
+              name: "Sarah Johnson",              handle: "@sarahj",              testimonial: "My credit score jumped 127 points in just 6 months. Rize Financial made the entire process so easy.",              rating: 5,
+              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",              imageAlt: "Sarah Johnson"
+            },
+            {
+              name: "Marcus Chen",              handle: "@marcusc",              testimonial: "Finally got approved for the loan I needed. Their strategic approach to credit building really works!",              rating: 5,
+              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus",              imageAlt: "Marcus Chen"
+            },
+            {
+              name: "Emma Rodriguez",              handle: "@emmar",              testimonial: "Best decision I made for my financial future. The team is professional and genuinely cares about results.",              rating: 5,
+              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Emma",              imageAlt: "Emma Rodriguez"
+            }
+          ]}
+          testimonialRotationInterval={5000}
           buttons={[
             { text: "Repair My Credit Now", href: "contact" },
             { text: "Learn More", href: "services" }
@@ -58,6 +73,15 @@ export default function LandingPage() {
           buttonAnimation="slide-up"
           useInvertedBackground={false}
           fixedMediaHeight={false}
+          marqueeItems={[
+            { type: "text", text: "✓ Credit Score Boost" },
+            { type: "text", text: "✓ Dispute Resolution" },
+            { type: "text", text: "✓ Funding Unlocked" },
+            { type: "text", text: "✓ Expert Guidance" },
+            { type: "text", text: "✓ 98% Success Rate" }
+          ]}
+          marqueeSpeed={30}
+          showMarqueeCard={true}
         />
       </div>
 
@@ -146,6 +170,42 @@ export default function LandingPage() {
         />
       </div>
 
+      <div id="testimonials" data-section="testimonials">
+        <TestimonialCardOne
+          title="What Our Clients Say"
+          description="Join thousands who've transformed their financial lives with Rize Financial"
+          tag="Testimonials"
+          tagIcon={Star}
+          tagAnimation="slide-up"
+          textboxLayout="default"
+          useInvertedBackground={false}
+          animationType="slide-up"
+          gridVariant="uniform-all-items-equal"
+          testimonials={[
+            {
+              id: "1",              name: "Sarah Johnson",              role: "Entrepreneur",              company: "TechStart Inc",              rating: 5,
+              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",              imageAlt: "Sarah Johnson"
+            },
+            {
+              id: "2",              name: "Marcus Chen",              role: "Business Owner",              company: "Chen Ventures",              rating: 5,
+              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus",              imageAlt: "Marcus Chen"
+            },
+            {
+              id: "3",              name: "Emma Rodriguez",              role: "Financial Analyst",              company: "Global Finance Co",              rating: 5,
+              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Emma",              imageAlt: "Emma Rodriguez"
+            },
+            {
+              id: "4",              name: "James Wilson",              role: "Consultant",              company: "Wilson Consulting",              rating: 5,
+              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=James",              imageAlt: "James Wilson"
+            }
+          ]}
+          buttons={[
+            { text: "Start Your Journey", href: "contact" }
+          ]}
+          buttonAnimation="slide-up"
+        />
+      </div>
+
       <div id="howitworks" data-section="howitworks">
         <FeatureCardTwentyFive
           title="How Our Process Works"
@@ -198,7 +258,7 @@ export default function LandingPage() {
           description="Start your journey to better credit and new opportunities today—with zero obligation. Our team is ready to help you succeed."
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQzoj29wXnmZL7I0lqwKhA2SM2/uploaded-1772541756005-i1d7tli4.jpg?_wi=2"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQzoj29wXnmZL7I0lqwKhA2SM2/uploaded-1772541756005-i1d7tli4.jpg"
           imageAlt="Financial success"
           mediaAnimation="slide-up"
           mediaPosition="right"
