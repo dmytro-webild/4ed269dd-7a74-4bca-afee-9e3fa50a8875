@@ -47,22 +47,22 @@ export default function LandingPage() {
           tagIcon={Sparkles}
           tagAnimation="slide-up"
           background={{ variant: "glowing-orb" }}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQzoj29wXnmZL7I0lqwKhA2SM2/uploaded-1772541756005-i1d7tli4.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQzoj29wXnmZL7I0lqwKhA2SM2/uploaded-1772541756005-i1d7tli4.jpg?_wi=1"
           imageAlt="Professional financial services"
           imagePosition="right"
           mediaAnimation="slide-up"
           testimonials={[
             {
               name: "Sarah Johnson",              handle: "@sarahj",              testimonial: "My credit score jumped 127 points in just 6 months. Rize Financial made the entire process so easy.",              rating: 5,
-              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",              imageAlt: "Sarah Johnson"
+              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah&_wi=1",              imageAlt: "Sarah Johnson"
             },
             {
               name: "Marcus Chen",              handle: "@marcusc",              testimonial: "Finally got approved for the loan I needed. Their strategic approach to credit building really works!",              rating: 5,
-              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus",              imageAlt: "Marcus Chen"
+              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus&_wi=1",              imageAlt: "Marcus Chen"
             },
             {
               name: "Emma Rodriguez",              handle: "@emmar",              testimonial: "Best decision I made for my financial future. The team is professional and genuinely cares about results.",              rating: 5,
-              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Emma",              imageAlt: "Emma Rodriguez"
+              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Emma&_wi=1",              imageAlt: "Emma Rodriguez"
             }
           ]}
           testimonialRotationInterval={5000}
@@ -184,15 +184,15 @@ export default function LandingPage() {
           testimonials={[
             {
               id: "1",              name: "Sarah Johnson",              role: "Entrepreneur",              company: "TechStart Inc",              rating: 5,
-              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",              imageAlt: "Sarah Johnson"
+              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah&_wi=2",              imageAlt: "Sarah Johnson"
             },
             {
               id: "2",              name: "Marcus Chen",              role: "Business Owner",              company: "Chen Ventures",              rating: 5,
-              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus",              imageAlt: "Marcus Chen"
+              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus&_wi=2",              imageAlt: "Marcus Chen"
             },
             {
               id: "3",              name: "Emma Rodriguez",              role: "Financial Analyst",              company: "Global Finance Co",              rating: 5,
-              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Emma",              imageAlt: "Emma Rodriguez"
+              imageSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Emma&_wi=2",              imageAlt: "Emma Rodriguez"
             },
             {
               id: "4",              name: "James Wilson",              role: "Consultant",              company: "Wilson Consulting",              rating: 5,
@@ -258,7 +258,7 @@ export default function LandingPage() {
           description="Start your journey to better credit and new opportunities today—with zero obligation. Our team is ready to help you succeed."
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQzoj29wXnmZL7I0lqwKhA2SM2/uploaded-1772541756005-i1d7tli4.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AQzoj29wXnmZL7I0lqwKhA2SM2/uploaded-1772541756005-i1d7tli4.jpg?_wi=2"
           imageAlt="Financial success"
           mediaAnimation="slide-up"
           mediaPosition="right"
